@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: Montserrat,sans-serif;
+    height: 100vh;
+}
+
+#pasture {
+    min-height: 100vh;
+}
+
+.sheep-list {
+    background: #27ae60;
+    min-height: 600px;
+}
+
+.sheep-text {
+    border: 1px solid #fff;
+    min-width: 160px;
+    max-width: 100%;
+    border-radius: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.sheep-text p {
+    font-size: 1.4rem;
+    margin: 0;
+    word-wrap: normal;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0 8px;
+}
+
+#sidebar_form {
+    background: #efefef;
+    -moz-box-shadow: inset 3px 1px 7px 1px #ccc;
+    -webkit-box-shadow: inset 3px 1px 7px 1px #ccc;
+    box-shadow: inset 3px 1px 7px 1px #ccc;
+}
+
+.sheep-control-forms {
+    display: grid;
+    grid-row-gap: 30px;
+    margin: 30px 0 45px 0;
+}
+
+.sheep-form {
+    position: relative;
+    border: 1px solid #27ae60;
+    padding: 15px; 
+    border-radius: 5px;
+    box-shadow: inset 1px 0px 120px -100px #27ae60;
+}
+
+.sheep-control-forms input, .sheep-control-forms select {
+    width: 100%;
+    word-wrap: normal;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 35px;
+    border: 0;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    box-shadow: inset 1px 1px 1px #ccc;
+    padding-left: 5px;
+    appearance: none;
+}
+
+.sheep-control-forms button {
+    width: 100px;
+    border-radius: 3px;
+    border: 1px solid #27ae60;
+}
+
+.sheep-control-forms button:hover {
+    background: #dddddd;
+}
+
+.select-wrapper {
+    position: relative;
+}
+
+.dd-arrow {
+    content: " ";
+    width: 10px;
+    height: 10px;
+    border-bottom: 2px solid #27ae60;
+    border-right: 2px solid #27ae60;
+    transform: rotate(45deg);
+    position: absolute;
+    z-index: 999;
+    right: 16px;
+    top: 11px;
+}
